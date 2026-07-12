@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+    @apply bg-gray-200
+}
+
+.center {
+    @apply flex justify-center items-center h-[80vh];
+}
+
+.card {
+    @apply bg-white p-8 rounded shadow min-w-[60vw];
+}
+
+.input {
+    @apply w-full border border-gray-300 mb-2.5 p-1;
+}
+
+.error {
+    @apply text-red-500;
+}
+
+.btn {
+    @apply cursor-pointer;
+}
+.btn-shape {
+    @apply  rounded py-1 my-2 w-full
+            text-center text-white
+            transition duration-200;
+}
